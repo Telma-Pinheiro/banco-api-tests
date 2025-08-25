@@ -1,10 +1,11 @@
 const request = require('supertest');
-const { expect } = require('chai')
+const { expect } = require('chai');
+require ('dotenv').config()
 
 describe('login', () => {
     describe('POST /login', () => {
         it('Deve retornar 200 com um token em string quando usar credenciais válidas', async () => {
-            const resposta = await request('http://localhost:3000')
+            const resposta = await request(process.env.BASE_URL)
             //vou fazer uma requisição via post com credenciasi válidas para o post login
                 .post('/login')
                 //setando o cabeçalho pra essa requisição
