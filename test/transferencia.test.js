@@ -48,9 +48,6 @@ describe('transferências', () => {
         .get('/transferencias/24')
         .set('Authorization', `Bearer ${token}`)
 
-        
-        console.log(resposta.body)
-        console.log(resposta.status)
 
         expect(resposta.status).to.equal(200)
         expect(resposta.body.id).to.equal(24)
