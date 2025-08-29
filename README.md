@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo realizar a automação dos testes de API REST para a aplicação banco-api,(https://github.com/Telma-Pinheiro/banco-api-tests), validando suas funcionalidades e contribuindo com a qualidade de suas operações. 
+Este projeto tem como objetivo realizar a automação dos testes de API REST do banco-api, validando suas funcionalidades e contribuindo com a qualidade de suas operações. 
 
 ## 🛠️ Stack Utilizada
 
