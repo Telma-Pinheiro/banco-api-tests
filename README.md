@@ -60,12 +60,12 @@ Sugestão: Para executar os testes e abrir o relatório HTML, adicione o script 
 
 Após a execução dos testes, um relatório detalhado em HTML será gerado automaticamente no diretório `mochawesome-report/`. Para visualizar o relatório, abra o arquivo `mochawesome.html` no seu navegador.
 
-## 📚 Documentação das Dependências
+## 📚 Dependências utilizadas e suas documentações
 
 Para mais detalhes sobre as ferramentas utilizadas neste projeto, consulte a documentação oficial:
 
--   **Mocha:** [https://mochajs.org/](https://mochajs.org/)
--   **Supertest:**[Supertest](https://github.com/ladis/supertest) - Biblioteca para chamada HTML
+-   **Mocha:** [https://mochajs.org/](https://mochajs.org/) - Framework de execução de testes
+-   **Supertest:**[Supertest](https://github.com/ladis/supertest) - Biblioteca para chamada HTTP
 -   **Chai:** [https://www.chaijs.com/](https://www.chaijs.com/) - Biblioteca de asserções
 -   **Mochawesome:** [https://github.com/adamgruber/mochawesome] - Geração de reltóri em HTML
 -   **Dotenv:** [https://github.com/motdotla/dotenv] - Gerenciamento de variáveis de ambiente
